@@ -1,4 +1,4 @@
-# esr-disc-patcher-qt4
+# esr-disc-patcher-cli
 This git repo is used to host a clean version of esr-disc-patcher-cli
 
 The current (and probably last) version is 0.24a
