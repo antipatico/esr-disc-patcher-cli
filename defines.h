@@ -1,9 +1,9 @@
 #pragma once
-#include <stdio.h>
-#include <string>
+#include <cstdio>
 #include <cstring>
-#include <stdlib.h>
-#include <time.h>
+#include <cstdlib>
+#include <ctime>
+#include <string>
 
 enum eFileErr
 {
