@@ -7,9 +7,29 @@ Original thread: http://psx-scene.com/forums/f164/esr-disc-patcher-linux-mac-qt4
 
 Mirror: https://web.archive.org/web/20150919031500/http://psx-scene.com/forums/f164/esr-disc-patcher-linux-mac-qt4-port-60096/
 
-### Make instruction
+### Binaries
 
-make
+0.24.1 release binaries in bin/ directory statically compiled for use on x86_64 Linux (compiled on Debian Jessie).
+
+### Running
+
+To apply ESR patch
+
+```
+$ ./esrpatch path_to_iso
+```
+
+To remove ESR patch
+
+```
+$ ./esrunpatch patch_to_patched_iso
+```
+
+### Compilation
+
+```
+$ make
+```
 
 ### Changelog
 
