@@ -31,7 +31,14 @@ $ ./esrunpatch patch_to_patched_iso
 $ make
 ```
 
+```
+$ make static
+```
+
+For the static binaries
+
 ### Changelog
 
+* 2017-05-11 Added static make rules
 * 2017-05-01 defines.h uses <csting> type includes
 * 2017-4-30 forked from https://github.com/antipatico/esr-disc-patcher-cli
