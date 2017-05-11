@@ -1,4 +1,4 @@
-# esr-disc-patcher-cli v0.24.1
+# esr-disc-patcher-cli v0.24.2
 This git repo is used to host a clean version of esr-disc-patcher-cli
 
 Fork from 0.24a
@@ -41,4 +41,4 @@ For the static binaries
 
 * 2017-05-11 Added static make rules
 * 2017-05-01 defines.h uses <csting> type includes
-* 2017-4-30 forked from https://github.com/antipatico/esr-disc-patcher-cli
+* 2017-04-30 forked from https://github.com/antipatico/esr-disc-patcher-cli
