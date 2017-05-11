@@ -1,16 +1,15 @@
 CXX=g++
 CXXFLAGS=-Wall -ansi
+CC=g++
+CCFLAGS=-Wall -ansi
 
-all: esrpatch esrunpatch
+all: esrtool
 
-esrpatch: esrpatch.cpp Patcher.cpp
-
-esrunpatch: esrunpatch.cpp Patcher.cpp
+esrtool: Patcher.cpp esrtool.c
 
 .PHONY: static
 static:
-	$(CXX) $(CXXFLAGS) -static esrpatch.cpp Patcher.cpp -o esrpatch-static
-	$(CXX) $(CXXFLAGS) -static esrunpatch.cpp Patcher.cpp -o esrunpatch-static
+	$(CXX) $(CXXFLAGS) -static esrtool.c Patcher.cpp -o esrtool-static
 
 clean:
-	rm -f esrpatch esrunpatch esrpatch-static esrunpatch-static
+	rm -f esrtool esrtool-static
