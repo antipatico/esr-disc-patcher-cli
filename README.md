@@ -9,7 +9,7 @@ Mirror: https://web.archive.org/web/20150919031500/http://psx-scene.com/forums/f
 
 ### Binaries
 
-0.24.1 release binaries in bin/ directory statically compiled for use on x86_64 Linux (compiled on Debian Jessie).
+0.24.1 release binaries in bin/ directory statically compiled for use on x86_64 Linux (compiled on Debian Jessie). Working Windows 10 WSL.
 
 ### Running
 
