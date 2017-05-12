@@ -10,9 +10,16 @@ Mirror: https://web.archive.org/web/20150919031500/http://psx-scene.com/forums/f
 
 ### Binaries
 
-Statically linked binaries in /bin/
+Statically linked stripped binary in /bin/
 
-Tested on windows 10 WSL.
+Functionally tested on:
+
+* Windows 10 WSL
+* Debian 8.8
+
+### Installation
+
+Copy compiled binary (or provided statically linked one) to a folder in your path.
 
 ### Running
 
@@ -34,11 +41,15 @@ $ ./esrtool u patch_to_patched_iso
 $ make
 ```
 
+For the static binaries
+
 ```
 $ make static
 ```
 
-For the static binaries
+### Todo
+
+* Option to not patch in place
 
 ### Changelog
 
