@@ -16,6 +16,7 @@
 //#pragma warning(disable : 4996)
 
 #include "Patcher.h"
+#include <string.h>
 
 CPatcher::CPatcher(void)
 {
